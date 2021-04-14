@@ -1,0 +1,18 @@
+Name - Manish Narayan Arora
+Project name - GrepCommand 
+Mis - 111803036
+
+I am trying to implement grep command in linux operating system
+Following are the options in my project
+-c : It prints no. of lines that will match given pattern
+-h : It displays the matched lines, but do not display filenames
+-H : It displays the matched lines alongwith filenames
+-n : It displays the matched lines alongwith line no.
+-i : It ignores the case while matching
+-l : It displays list of filenames only
+-w : It matches the whole word from the file
+-o : Print only the matched parts of a matching line
+-E : It treats pattern as extended regular expression
+-v : It prints all the lines that do not match pattern
+-e exp : It specifies expression and can be used multiple times.
+-f file : It takes patterns from file, one per line.

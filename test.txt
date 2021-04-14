@@ -1,0 +1,28 @@
+./grep manish file.txt
+./grep manish -i file.txt
+./grep manish -i -c file.txt
+./grep manish -i -H file.txt file1.txt file2.txt
+./grep manish -i -H -c file.txt file1.txt file2.txt
+./grep manish -w -H file.txt file1.txt file2.txt
+./grep manish -w -H -c file.txt file1.txt file2.txt
+./grep manish -w -H -i file.txt file1.txt file2.txt
+./grep manish -w -H -i -c file.txt file1.txt file2.txt
+./grep manish -w -H -i -v file.txt file1.txt file2.txt
+./grep manish -w -H -i -v -c file.txt file1.txt file2.txt
+./grep manish -H -v -c file.txt file1.txt file2.txt
+./grep manish -H -v file.txt file1.txt file2.txt
+./grep manish -H -m 3 -i file.txt file1.txt file2.txt
+./grep manish -H -m 3 -i -c file.txt file1.txt file2.txt
+./grep manish -H -i -b file.txt file1.txt file2.txt
+./grep manish -H -i -b -c file.txt file1.txt file2.txt
+./grep manish -H -i -b -c -m 4 file.txt file1.txt file2.txt
+./grep manish -H -i -b -m 4 file.txt file1.txt file2.txt
+./grep manish -H -i -b -m 4 -v file.txt file1.txt file2.txt
+./grep manish -H -i -b -m 7 -v file.txt file1.txt file2.txt main.c
+./grep -i -v -H manish file.txt
+./grep -i -w -H -b -m 3 manish file.txt
+./grep -i -w -H -b -m 3 manish file1.txt
+./grep -i -w -H -b -m 3 manish file2.txt
+./grep -i -w -H -b -m 3 -v manish file.txt file1.txt file2.txt
+./grep -i -w -H -b -m 3 -v -c manish file.txt file1.txt file2.txt
+./grep manish -i -b -r
